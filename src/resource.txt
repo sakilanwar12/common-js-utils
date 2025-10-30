@@ -1,0 +1,6 @@
+
+Github Actions
+--------------
+
+npm version patch
+git push origin dev --follow-tags
