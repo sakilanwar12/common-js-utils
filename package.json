@@ -1,5 +1,5 @@
 {
-  "name": "common-js-utils",
+  "name": "js-utility-method",
   "version": "1.0.0",
   "description": "A collection of common utility functions in TypeScript",
   "main": "dist/index.js",
