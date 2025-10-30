@@ -1,6 +1,6 @@
 {
   "name": "js-utility-method",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A collection of common utility functions in TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
