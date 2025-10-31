@@ -21,12 +21,6 @@ jobs:
           node-version: '20'
           registry-url: 'https://registry.npmjs.org/'
 
-      - name: Configure npm auth for publish (uses NODE_AUTH_TOKEN)
-        if: env.NPM_TOKEN != ''
-        run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
       - name: Set up pnpm
         uses: pnpm/action-setup@v2
         with:
@@ -46,9 +40,14 @@ jobs:
           echo "tag=$TAG" >> $GITHUB_OUTPUT
           echo "pkg_version=$PKG_VERSION" >> $GITHUB_OUTPUT
           if [ "$TAG" != "v$PKG_VERSION" ]; then
-            echo "Tag ($TAG) does not match package.json version (v$PKG_VERSION)" >&2
+            echo "❌ Tag ($TAG) does not match package.json version (v$PKG_VERSION)" >&2
             exit 1
           fi
+
+      - name: Configure npm auth
+        run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish to npm
         env:
