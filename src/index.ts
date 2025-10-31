@@ -3,4 +3,5 @@
 */
 export { isEven } from "./number/isEven";
 export { isOdd } from "./number/isOdd";
+export { multiply } from "./number/multiply";
 
