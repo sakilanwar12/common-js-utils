@@ -1,10 +1,10 @@
-import { checkIsNumber } from "./checkIsNumber";
+import { checkIsNumber } from "./checkIsNumber/checkIsNumber";
 
 export function throwErrorOnInvalidNumber(
   value: unknown,
   name: string,
   safeParse = false,
-  fallback: number = 0,
+  fallback: number = 0
 ): number {
   if (safeParse) {
     try {
