@@ -4,3 +4,8 @@ Github Actions
 
 npm version patch
 git push origin dev --follow-tags
+
+
+Run test
+---------------------
+npx jest src/number/isEven.test.ts --watch
