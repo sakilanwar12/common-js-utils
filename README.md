@@ -3,6 +3,13 @@
 
 A lightweight collection of standalone JavaScript utility functions — easy to use, adapt, and extend. Organized by purpose (e.g. arrays, strings, numbers), each method is designed for clarity, flexibility, and direct integration into any project
 
+## Contributing
+
+Contributions are welcome! 🎉  
+
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting a pull request.  
+It explains how to contribute, report issues, and follow best practices.
+
 ## Installation
 
 Using npm:
