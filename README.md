@@ -46,6 +46,13 @@ pnpm  add js-utility-method
 | [randomInRange](https://github.com/sakilanwar12/js-utility-method/tree/main/src/number/randomInRange) | Generates a random number between a given min and max. |
 
 
+### Object
+
+| Name | Description |
+|--------|-------------|
+| [pickKeys](https://github.com/sakilanwar12/js-utility-method/tree/main/src/object/pickKeys) | Returns a new object composed of the specified keys from the source object.|
+
+
 
 ## License
 
