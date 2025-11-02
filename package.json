@@ -1,5 +1,6 @@
 {
   "name": "js-utility-method",
+  "author": "Sakil Anwar",
   "version": "1.0.7",
   "description": "A collection of common utility functions in TypeScript",
   "main": "dist/index.js",
@@ -22,10 +23,14 @@
   "keywords": [
     "utility",
     "typescript",
-    "sum",
-    "npm"
+    "js-utility-method",
+    "js-utils",
+    "js-utility-functions",
+    "js-utility-methods",
+    "js-utility-functions",
+    "js-utility-methods",
+    "js-utility-functions"
   ],
-  "author": "Sakil",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.0",

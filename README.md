@@ -7,7 +7,7 @@ A lightweight collection of standalone JavaScript utility functions — easy to 
 
 Contributions are welcome! 🎉  
 
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting a pull request.  
+Please read [CONTRIBUTING.md](https://github.com/sakilanwar12/js-utility-method?tab=contributing-ov-file) before submitting a pull request.  
 It explains how to contribute, report issues, and follow best practices.
 
 ## Installation
