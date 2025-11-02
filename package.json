@@ -1,7 +1,7 @@
 {
   "name": "js-utility-method",
   "author": "Sakil Anwar",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A collection of common utility functions in TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
