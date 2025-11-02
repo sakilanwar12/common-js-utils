@@ -1,9 +1,13 @@
 
-Github Actions
+Publish to npm
 --------------
 
-npm version patch
-git push origin dev --follow-tags
+pnpm version patch
+pnpm run build
+pnpm run test
+git push && git push --tags
+pnpm publish --access public
+
 
 
 Run test
