@@ -16,6 +16,9 @@ If the value is invalid or not convertible, returns the provided fallback value.
 ### Example
 
 ```
+import {convertToNumber} from 'js-utility-method'
+```
+```
 convertToNumber({ value: "42.5678" });        // => 42.57
 convertToNumber({ value: "100.12345", digit: 3 }); // => 100.123
 convertToNumber({ value: "abc", fallback: 10 });   // => 10

@@ -1,4 +1,3 @@
-
 <a name="isEven"></a>
 
 ## isEven(num) ⇒ boolean
@@ -17,11 +16,14 @@ boolean — Returns true if the number is even, otherwise false.
 
 ## Example
 
+```js
+import { isEven } from "js-utility-method";
 ```
-isEven(2);     // => true
-isEven(10);    // => true
-isEven(7);     // => false
-isEven(-4);    // => true
-isEven(0);     // => true
 
+```js
+isEven(2); // => true
+isEven(10); // => true
+isEven(7); // => false
+isEven(-4); // => true
+isEven(0); // => true
 ```

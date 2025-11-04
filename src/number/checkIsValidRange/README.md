@@ -18,11 +18,15 @@ boolean — Returns true if the value is a valid number and lies within the spec
 
 ## Example
 
+```js
+import { checkIsValidRange } from "js-utility-method";
 ```
-checkIsValidRange(10, 0, 20);     // => true
-checkIsValidRange(25, 0, 20);     // => false
-checkIsValidRange(-5, -10, 0);    // => true
-checkIsValidRange("10", 0, 20);   // => false
-checkIsValidRange(NaN, 0, 20);    // => false
-checkIsValidRange(5, 5, 5);       // => true
+
+```js
+checkIsValidRange(10, 0, 20); // => true
+checkIsValidRange(25, 0, 20); // => false
+checkIsValidRange(-5, -10, 0); // => true
+checkIsValidRange("10", 0, 20); // => false
+checkIsValidRange(NaN, 0, 20); // => false
+checkIsValidRange(5, 5, 5); // => true
 ```

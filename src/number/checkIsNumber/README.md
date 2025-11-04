@@ -7,14 +7,16 @@ Optionally, it can verify if the number is finite (not Infinity, -Infinity, or N
 
 ### Parameters
 
-
-
 | Name                   | Type      | Default | Description                                                                                    |
 | ---------------------- | --------- | ------- | ---------------------------------------------------------------------------------------------- |
 | `value`                | `unknown` | —       | The value to check.                                                                            |
 | `checkForFiniteNumber` | `boolean` | `false` | If `true`, ensures the value is a finite number (excludes `Infinity`, `-Infinity`, and `NaN`). |
 
 **Example**
+
+```js
+import { checkIsNumber } from "js-utility-method";
+```
 
 ```js
 checkIsNumber(42); // => true

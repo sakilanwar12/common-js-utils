@@ -15,7 +15,11 @@ If a key does not exist in the source object, it will be ignored.
 
 ## Example
 
+```js
+import { pickKeys } from "js-utility-method";
 ```
+
+```js
 pickKeys({ id: 1, name: "Sakil", role: "admin" }, ["name", "role"]);
 // => { name: "Sakil", role: "admin" }
 

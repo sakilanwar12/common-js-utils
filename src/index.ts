@@ -12,6 +12,12 @@ export { checkIsValidRange } from "./number/checkIsValidRange/checkIsValidRange"
 export { randomInRange } from "./number/randomInRange/randomInRange";
 
 /*
+ =========== Array Methods ==============
+*/
+
+export { isArray } from "./array/isArray/isArray";
+
+/*
  =========== Convert Methods ==============
 */
 

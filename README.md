@@ -53,6 +53,13 @@ pnpm  add js-utility-method
 | [pickKeys](https://github.com/sakilanwar12/js-utility-method/tree/main/src/object/pickKeys) | Returns a new object composed of the specified keys from the source object.|
 
 
+### Array
+
+| Name | Description |
+|--------|-------------|
+| [isArray](https://github.com/sakilanwar12/js-utility-method/tree/main/src/array/isArray) | Checks whether the given value is an array.|
+
+
 
 ## License
 
