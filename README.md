@@ -51,6 +51,7 @@ pnpm  add js-utility-method
 | Name | Description |
 |--------|-------------|
 | [pickKeys](https://github.com/sakilanwar12/js-utility-method/tree/main/src/object/pickKeys) | Returns a new object composed of the specified keys from the source object.|
+| [omitKeys](https://github.com/sakilanwar12/js-utility-method/tree/main/src/object/omitKeys) | Returns a new object with all keys from the source object except the specified keys.|
 
 
 ### Array
