@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "build": "tsup",
-    "test": "jest",
+    "test": "jest --watch",
     "lint": "eslint src --ext .ts"
   },
   "keywords": [
