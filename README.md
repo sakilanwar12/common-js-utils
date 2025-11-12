@@ -73,6 +73,10 @@ pnpm  add js-utility-method
 | Name | Description |
 |--------|-------------|
 | [capitalize](https://github.com/sakilanwar12/js-utility-method/tree/main/src/string/capitalize) | Capitalizes the first letter of a string. |
+| [camelCase](https://github.com/sakilanwar12/js-utility-method/tree/main/src/string/camelCase) | Converts a string to camelCase format. |
+| [removeSpaces](https://github.com/sakilanwar12/js-utility-method/tree/main/src/string/removeSpaces) | Removes all spaces from a string. |
+| [slugify](https://github.com/sakilanwar12/js-utility-method/tree/main/src/string/slugify) | Converts a string to a URL-friendly slug. |
+| [truncate](https://github.com/sakilanwar12/js-utility-method/tree/main/src/string/truncate) | Truncates a string to a specified length with an optional suffix. |
 
 
 ## License

@@ -28,3 +28,7 @@ export { convertToNumber } from "./convert/convertToNumber";
 */
 
 export { capitalize } from "./string/capitalize/capitalize";
+export { camelCase } from "./string/camelCase/camelCase";
+export { removeSpaces } from "./string/removeSpaces/removeSpaces";
+export { slugify } from "./string/slugify/slugify";
+export { truncate } from "./string/truncate/truncate";
