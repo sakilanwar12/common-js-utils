@@ -61,6 +61,12 @@ pnpm  add js-utility-method
 | [isArray](https://github.com/sakilanwar12/js-utility-method/tree/main/src/array/isArray) | Checks whether the given value is an array.|
 
 
+### String
+
+| Name | Description |
+|--------|-------------|
+| [capitalize](https://github.com/sakilanwar12/js-utility-method/tree/main/src/string/capitalize) | Capitalizes the first letter of a string. |
+
 
 ## License
 

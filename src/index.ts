@@ -22,3 +22,9 @@ export { isArray } from "./array/isArray/isArray";
 */
 
 export { convertToNumber } from "./convert/convertToNumber";
+
+/*
+ =========== String Methods ==============
+*/
+
+export { capitalize } from "./string/capitalize/capitalize";
