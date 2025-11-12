@@ -32,6 +32,13 @@ pnpm  add js-utility-method
 
 ## Table of Contents
 
+### Generator
+
+| Name | Description |
+|--------|-------------|
+| [generateCode](https://github.com/sakilanwar12/js-utility-method/tree/main/src/generator/generateCode) | Generates a random code (numeric, alphabetic, or alphanumeric) — ideal for creating OTPs, verification codes, or temporary identifiers. |
+
+
 ### Number
 
 | Name | Description |
